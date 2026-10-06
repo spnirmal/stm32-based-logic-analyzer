@@ -1,0 +1,17 @@
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+build instructions and flash process
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+this project uses CMAKE.
+
+run the cmake and keep build directory outside of src directory for ease of use and run make flash.
+while having your stm32 powered up in boot mode.
+
+if using dev kit the boot pin should be pulled high using the jumper and flash.
+
+make files uses stm32flash , so have that installed in your system.
+
+it assumes you are using UART connection. make sure the usb-uart covertor is connected to UART1 of stm32
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
