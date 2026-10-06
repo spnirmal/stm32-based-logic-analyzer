@@ -2,7 +2,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 build instructions and flash process
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-this project uses CMAKE.
+this project uses CMAKE. haev cmake , make and teh arm compiler installed in your system.
 
 run the cmake and keep build directory outside of src directory for ease of use and run make flash.
 while having your stm32 powered up in boot mode.
